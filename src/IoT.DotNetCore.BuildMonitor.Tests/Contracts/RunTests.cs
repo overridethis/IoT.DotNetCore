@@ -49,7 +49,7 @@ namespace IoT.DotNetCore.BuildMonitor.Tests.Contracts
 
             // Act.
             // Assert.
-            Assert.Equal(model.IsQueued(), result);
+            Assert.Equal(model.IsFailure(), result);
         }
     }
 }
