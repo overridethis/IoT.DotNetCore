@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24500",
+      "sslPort": 44310
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IoT.DotNetCore.BuildMonitor.Api": {
+      "commandName": "Project",
+      "launchUrl": "weatherforecast",
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://+:5001",
+        "GitHub:Owner": "{REPLACE_WITH_GITHUB_OWNER}",
+        "GitHub:Repo": "{REPLACE_WITH_GITHUB_REPO}",
+        "GitHub:Token": "{REPLACE_WITH_GITHUB_TOKEN}"
+      }
+    }
+  }
+}
